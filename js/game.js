@@ -4,6 +4,14 @@ window.GameConstants = {
   Fireball: {
     size: window.fireballSize || 24,
     speed: window.getFireballSpeed || function (movingLeft) {
+<<<<<<< HEAD
+=======
+      if (movingLeft){
+        return 2;
+      }else{
+        return 5;
+      }
+>>>>>>> 37360c3c62b129650ed23362c154e590b7549f57
       return movingLeft ? 2 : 5;
     }
   },
